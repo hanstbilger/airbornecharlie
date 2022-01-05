@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>about</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+	<body>
+
+    <nav class="navbar navbar-expand-md py-3 fixed-top navbar-light">
+    	<a class="navbar-brand" href="index.html">Airborne Charlie</a>
+    	<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+    		<span class="navbar-toggler-icon"></span>
+    	</button>
+      <div class="collapse navbar-collapse" id="main-navigation">
+    		<ul class="navbar-nav">
+    			<li class="nav-item">
+    				<a class="nav-link" href="shows.html">shows</a>
+    			</li>
+    			<li class="nav-item">
+    				<a class="nav-link" href="photos.html">photos</a>
+    			</li>
+          <li class="nav-item">
+    				<a class="nav-link" href="bio.html">bio</a>
+    			</li>
+          <li class="nav-item">
+    				<a class="nav-link" href="press.html">press</a>
+    			</li>
+    			<li class="nav-item">
+    				<a class="nav-link" href="discography.html">discography</a>
+    			</li>
+          <li class="nav-item">
+    				<a class="nav-link" href="contact.html">contact</a>
+    			</li>
+    		</ul>
+    	</div>
+    </nav>
+    </div>
+
+
+  <main role="main">
+
+      <!-- Title jumbotron-->
+      <div class="jumbotron" id="jumbotron-bio">
+      </div>
+      <h1 class="display-4 text-center page-header">bio</h1>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="bio-text">
+          <div class="col-large-9 col-md-9 col-sm-9 mx-auto">
+          <p>
+          <span class="firstcharacter">L</span><span class="smallcaps">IKE SOME INTRICATE</span> flying machine, the music of Airborne Charlie is fueled by jazz and birdsong, folk harmony and Bach fugues, all welded to a sturdy frame of Americana. On their eponymous debut, the duo presents a bold, diverse collection of songs that run the gamut of their preoccupations. Recorded in Austin, TX during the winter of 2018, the record is both a glimpse of a moment in time and a sweeping tour through the sensibilities of two musical omnivores. </p>
+          <p>At turns disarmingly intimate and explosively orchestral, the songs on the record unfold like a collection of musical vignettes, moving fluidly between gossamer confessionals, groovy nocturnal trysts, and existential country waltzes. Hell, there’s even a Baroque invention buried in there somewhere. A narrower scope would feel untrue to the spirit of the duo, which looks for depth in the weird, humor in the grandiose, and oddness in the straight ahead. </p>
+          <p>Airborne Charlie is headed by NYC natives Hans Bilger and Eli Greenhoe. Lifelong friends and collaborators, Eli and Hans grew up learning music and writing songs side by side before continuing their education separately - Hans in the realm of jazz and evolutionary biology, Eli in classical composition. As a duo, they draw from their eclectic training and diverse interests - crafting a sound that is vivid and far-flung, but still deeply rooted in the folk traditions they grew up in. </p>
+          </div>
+        </div>
+    </main>
+
+    <script>
+          window.addEventListener('scroll',(e)=>{
+            const nav = document.querySelector('.navbar');
+            if(window.pageYOffset>0){
+              nav.classList.add("add-shadow");
+            }else{
+              nav.classList.remove("add-shadow");
+            }
+          });
+        </script>
+  </body>
+  <footer class="footer pb-3">
+    <hr>
+    <div class="container social-btns">
+      <a class="pr-3" href="https://open.spotify.com/artist/3Bh8LIMsEj0Z3jXX5K8Y00?si=zMlogIyTRuaPwcoZq_tbEg"><img src="assets/spotify.svg" style="height: 30px;"/></a>
+      <a class="pr-3" href="https://airbornecharlie.bandcamp.com/"><img src="assets/Bandcamp-button-bc-circle-black.svg" style="height: 30px;"/></a>
+      <a class="pr-3" href="https://www.facebook.com/airbornecharliemusic"><img src="assets/facebook.svg" style="height: 30px;"/></a>
+      <a href="https://www.instagram.com/airborne.charlie/"><img src="assets/instagram.svg" style="height: 30px;"/></a>
+    </div>
+  </footer>
+
+</html>
