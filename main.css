@@ -1,7 +1,5 @@
 body {
     padding-top: 6em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
     margin: 0;
     background: #ffffff;
 }
@@ -103,6 +101,10 @@ body {
   padding-right: 0%;
 }
 
+.jumbotron-fluid{
+  width: 100vw;
+}
+
 .epk.albumart{
   margin-top: 3em;
 }
@@ -195,8 +197,8 @@ body {
   background-image: url('assets/DSC3320_serious.jpg');
   background-size: cover;
   background-position: 50% 9%;
-  padding-top: 20%;
-  paddint-bottom: 20%;
+  padding-top: 13%;
+  padding-bottom: 13%;
 }
 
 #jumbotron-press{
