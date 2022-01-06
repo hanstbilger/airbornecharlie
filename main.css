@@ -109,27 +109,31 @@ body {
 
 .bio-text{
   font-family: 'EB Garamond', serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 160%;
   margin-top: 2.5em;
   padding-bottom: 15em;
 }
 
 .epk-bio-text{
   font-family: 'EB Garamond', serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 160%;
 }
 
 .smallcaps{
   font-family: 'EB Garamond', serif;
   font-size: 15px;
   font-weight: 300;
+  letter-spacing: 0.75px;
+
 }
 
 .smalltext{
   font-family: 'EB Garamond', serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -154,17 +158,18 @@ body {
   color: inherit;
   float: left;
   font-family: inherit;
-  font-size: 60px;
-  line-height: 50px;
-  padding-top: 2px;
+  font-size: 65px;
+  line-height: 55px;
+  padding-top: 6px;
   padding-right: 8px;
   padding-left: 3px;
 }
 
 .epk-bio-text-bold{
   font-family: 'EB Garamond', serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
+  line-height: 160%;
   font-color: rgba(0,0,0,1);
   margin-top: 0em;
   padding-bottom: 0em;
