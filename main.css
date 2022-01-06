@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-    background-image: url("assets/_DSC3399_laughing.jpg");
+    background-image: url("assets/DSC3399_laughing.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -171,7 +171,7 @@ body {
 }
 
 #jumbotron-shows{
-  background-image: url('assets/_DSC3226_pointcrop.jpg');
+  background-image: url('assets/DSC3226_pointcrop.jpg');
   background-size: cover;
   background-position: 50% 65%;
   padding-top: 10%;
@@ -179,7 +179,7 @@ body {
 }
 
 #jumbotron-discography{
-  background-image: url('assets/_DSC3041_goods.jpg');
+  background-image: url('assets/DSC3041_goods.jpg');
   background-size: cover;
   background-position: 50% 20%;
   padding-top: 10%;
@@ -187,7 +187,7 @@ body {
 }
 
 #jumbotron-bio{
-  background-image: url('assets/_DSC3320_serious.jpg');
+  background-image: url('assets/DSC3320_serious.jpg');
   background-size: cover;
   background-position: 50% 9%;
   padding-top: 20%;
@@ -195,7 +195,7 @@ body {
 }
 
 #jumbotron-press{
-  background-image: url('assets/_DSC3114_blue1.jpg');
+  background-image: url('assets/DSC3114_blue1.jpg');
   background-size: cover;
   background-position: 50% 35%;
   padding-top: 20%;
@@ -204,7 +204,7 @@ body {
 
 
 #jumbotron-epk{
-  background-image: url('assets/_DSC3409_smile1crop.jpg');
+  background-image: url('assets/DSC3409_smile1crop.jpg');
   background-size: cover;
   background-repeat: no-repeat bottom center;
   background-position: 20% 22%;
