@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-    background-image: url("https://github.com/hanstbilger/airbornecharlie/blob/47e77782011105c463c9eaadce2130ecd7c8cda9/assets/_DSC3399_laughing.jpg");
+    background-image: <img src=("assets/_DSC3399_laughing.jpg")>;
     background-size: cover;
     background-position: center;
     position: relative;
