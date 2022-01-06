@@ -171,7 +171,7 @@ body {
 }
 
 #jumbotron-shows{
-  background-image: url('assets/_DSC3226_pointcrop.jpg');
+  background-image: url("assets/_DSC3226_pointcrop.jpg");
   background-size: cover;
   background-position: 50% 65%;
   padding-top: 10%;
