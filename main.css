@@ -255,6 +255,8 @@ body {
     font-weight: 500;
     color: rgba(255,255,255,0.95);
     padding-top: 5%;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 .btn-epk-bio-photo{
