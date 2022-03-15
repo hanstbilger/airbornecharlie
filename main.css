@@ -23,6 +23,14 @@ body {
     margin-left: 1em;
 }
 
+.navbar-toggler{
+    font-size: 0.75em;
+    outline: none;
+    border: none;
+    padding:0em;
+    margin:0em;
+}
+
 .nav-link {
     margin-right: 1em !important;
     font-family: 'EB Garamond', serif;
